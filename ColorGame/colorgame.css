@@ -1,0 +1,125 @@
+ body{
+   margin: 0 0 0 0;
+   background: #232323;
+   }
+
+h1 h3 {
+    text-transform: uppercase;
+}
+
+
+     h3:first-child{
+        margin: 0 0;
+        padding-top: 2%;
+        letter-spacing: 0.2rem;
+     }
+     h3:last-child{
+        margin: 0 0 ;
+        padding-bottom: 2%;
+     letter-spacing: 0.2rem;
+     }
+.hover{
+    color: black;
+}
+
+     h1{
+        margin: 0 0;
+        /*padding-top: 1%;*/
+        /*padding-bottom: 1%;*/
+        letter-spacing: 0.2rem;
+     }
+
+     .top{
+        background: white;
+               color: #0088ff;
+     }
+
+
+ .navbar{
+    background: #0088ff;
+   /*border: 2px solid black;*/
+    margin: 0 auto 0 0;
+    position: static;
+    text-align: center;
+    color: white;
+ font-family: 'Raleway', sans-serif;
+
+}
+  .next{
+    flex: 3;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 1.2%;
+  }
+
+#container{
+    margin: 0 auto;
+    max-width: 600px;
+    /*margin-top: 0;*/
+ }
+  .row{
+display: flex;
+    justify-content: space-between;
+
+  }
+  .select{
+    background-color: #0088ff;
+    color: white;
+  }
+
+  .newgame{
+     /*flex-basis: 50%;*/
+     flex: 3;
+     /*margin: 0.5% 0;*/
+     text-align: center;
+  }
+
+       .answer{
+        flex: 2;
+        text-align: center;
+        opacity: 0;
+       }
+
+  .easy{
+    flex: 1;
+
+     text-align: center;
+     /*margin: 0.5% 0;*/
+     /*border-radius: 10px;*/
+
+  }
+  .hard{
+    flex: 1;
+  /*border-radius: 10px;*/
+    /*margin: 0.5% 0;*/
+     text-align: center;
+     margin-right: 16%;
+  }
+
+
+      .square{
+        float:left;
+        width: 30%;
+        padding-bottom: 30%;
+        margin: 1.66%;
+        /*border: 2px solid yellow;*/
+        background-color: yellow;
+        border-radius: 20px;
+      }
+
+
+
+/*   .col{
+    flex-basis: 33%;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 2em;
+    height: 10rem;
+    margin-right: 7%;
+    background-color: yellow;
+
+   }
+*/
+   .col:first-child{
+    margin-left: 7% ;
+   }
